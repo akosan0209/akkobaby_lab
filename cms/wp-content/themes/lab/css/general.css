@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+=====================================================================
+*   Akiko Imamura v1.0 Base style CSS
+*	style info :  汎用スタイルの設定					*												
+*   02-21-2014
+=====================================================================
+
+/* ------------------------------------------------------
+	1.General style
+------------------------------------------------------ */
+
+/*	Clearfix
+========================================== */
+/* clearfix：要素の末尾でfloatを解除する */
+.clearfix { ⁄zoom: 1; }
+.clearfix:after { content: ''; display: block; clear: both; }
+
+
+/*	Invisible elements：要素を不可視にする
+========================================== */
+.hidden {
+	display: none;
+}
+
+
+/* Error
+========================================== */
+div.error {
+	color: #F00;
+	font-size: 93%;
+	line-height: 140%;
+	margin-bottom: 30px;
+}
+
+span.error {
+	color: #F00;
+	line-height: 140%;
+}
+
+
+/*	Float
+========================================== */
+.floatL { float: left;}
+.floatR { float: right;}
+
+
+/*	List style
+========================================== */
+.disc li { list-style: disc; margin-left:2em; margin-bottom:10px; }
+.circle li { list-style: circle; margin-left:2em; }
+.decimal li { list-style: decimal; margin-left:2em; }
+
+
+
+/* Text style
+========================================== */
+/* Font color */
+.red { color: #F00; }
+.blue { color: #03F; }
+.gray { color: #999; }
+
+/* Font size */
+.fs10 { font-size: 10px; }
+.fs12 { font-size: 12px; }
+.fs14 { font-size: 14px; }
+.fs18 { font-size: 18px; }
+.fs20 { font-size: 20px; }
+.fs24 { font-size: 24px; }
+.fs28 { font-size: 28px; }
+.fs32 { font-size: 32px; }
+.fs36 { font-size: 36px; }
+.fs48 { font-size: 48px; }
+
+/* Text align */
+.align_l { text-align: left; }
+.align_r { text-align: right; }
+.align_c { text-align: center; }
+
+
+/*	Margin
+========================================== */
+.mt5 { margin-top: 5px; }
+.mt10 { margin-top: 10px; }
+.mt15 { margin-top: 15px; }
+.mt20 { margin-top: 20px; }
+.mt25 { margin-top: 25px; }
+.mt30 { margin-top: 30px; }
+.mt35 { margin-top: 35px; }
+.mt40 { margin-top: 40px; }
+.mt45 { margin-top: 45px; }
+.mt50 { margin-top: 50px; }
+.mt55 { margin-top: 55px; }
+.mt60 { margin-top: 60px; }
+.mt65 { margin-top: 65px; }
+.mt70 { margin-top: 70px; }
+.mt75 { margin-top: 75px; }
+.mt80 { margin-top: 80px; }
+.mt85 { margin-top: 85px; }
+.mt90 { margin-top: 90px; }
+.mt95 { margin-top: 95px; }
+.mt100 { margin-top: 100px; }
+
+.mb5 { margin-bottom: 5px; }
+.mb10 { margin-bottom: 10px; }
+.mb15 { margin-bottom: 15px; }
+.mb20 { margin-bottom: 20px; }
+.mb25 { margin-bottom: 25px; }
+.mb30 { margin-bottom: 30px; }
+.mb35 { margin-bottom: 35px; }
+.mb40 { margin-bottom: 40px; }
+.mb45 { margin-bottom: 45px; }
+.mb50 { margin-bottom: 50px; }
+.mb55 { margin-bottom: 55px; }
+.mb60 { margin-bottom: 60px; }
+.mb65 { margin-bottom: 65px; }
+.mb70 { margin-bottom: 70px; }
+.mb75 { margin-bottom: 75px; }
+.mb80 { margin-bottom: 80px; }
+.mb85 { margin-bottom: 85px; }
+.mb90 { margin-bottom: 90px; }
+.mb95 { margin-bottom: 95px; }
+.mb100 { margin-bottom: 100px; }
+
+
+/*	Width
+========================================== */
+.w60 { width: 60px; }
+.w80 { width: 80px; }
+.w100 { width: 100px; }
+.w120 { width: 120px; }
+.w140 { width: 140px; }
+.w160 { width: 160px; }
+.w180 { width: 180px; }
+.w200 { width: 200px; }
+.w220 { width: 220px; }
+.w240 { width: 240px; }
+.w260 { width: 260px; }
+.w280 { width: 280px; }
+.w300 { width: 300px; }
+.w320 { width: 320px; }
+.w340 { width: 340px; }
+.w360 { width: 360px; }
+.w380 { width: 380px; }
+.w400 { width: 400px; }
+.w420 { width: 420px; }
+.w440 { width: 440px; }
+.w460 { width: 460px; }
+.w480 { width: 480px; }
+.w500 { width: 500px; }
