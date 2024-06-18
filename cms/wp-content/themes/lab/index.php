@@ -6,7 +6,7 @@
 <div id="triangle1"></div>
 <div id="triangle2"></div>
 <div id="sitename">
-<h1>AKIKO IMAMURA</h1>
+<h1>AKIKO YOSHIDA</h1>
 <p>web designer & markup engineer</p>
 </div>
 <p class="scroll"><a href="#skill">CLICK HERE</a></p>
